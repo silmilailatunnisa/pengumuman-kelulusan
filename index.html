@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pengumuman Kelulusan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo Sekolah" class="logo-sekolah" />
+    <h1>Pengumuman Kelulusan SMKS Darul Jannah</h1>
+    <form id="loginForm">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" required />
+
+      <label for="tgl">Tanggal Lahir (dd-mm-yyyy):</label>
+      <input type="text" id="tgl" placeholder="contoh: 24-12-2005" required />
+
+      <label for="captchaInput">Masukkan kode: 1234</label>
+      <input type="text" id="captchaInput" required />
+
+      <button type="submit">Cek Kelulusan</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
